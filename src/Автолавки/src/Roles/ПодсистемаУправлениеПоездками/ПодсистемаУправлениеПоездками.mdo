@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="528aaed7-e5dd-46ac-9172-a506b5e957da">
+  <name>ПодсистемаУправлениеПоездками</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема управление поездками</value>
+  </synonym>
+</mdclass:Role>

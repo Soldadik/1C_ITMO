@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="914cb12f-a0c3-4956-a5f6-5ec7834a9b4b">
+  <producedTypes>
+    <objectType typeId="70a2ddd7-3c0e-4a5d-87b6-067f695f8649" valueTypeId="2f347bfe-8609-4593-9956-c2b729607445"/>
+    <refType typeId="cba50aa7-d59b-4c10-ae85-1735b9a0ff40" valueTypeId="046f77ea-f23b-43a5-b088-3d52618b6ac3"/>
+    <selectionType typeId="1afa1eff-0fef-4c67-856f-8f4dfd5d1241" valueTypeId="06b86ab2-100b-48ce-9355-c1b6588d051b"/>
+    <listType typeId="f61821a6-a4f5-47b0-942d-bd7d60a17d5a" valueTypeId="6133791c-a320-4d65-b0c2-d11b1e665fd7"/>
+    <managerType typeId="0622d773-7f22-4ac9-8cf7-59fc5b5228a4" valueTypeId="796c7140-1236-40a9-8c3f-3c9c449a2af7"/>
+  </producedTypes>
+  <name>ТС</name>
+  <synonym>
+    <key>ru</key>
+    <value>ТС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТС.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ТС.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="a85c9d51-9500-4c89-b6e8-ba50217e5213">
+    <name>НомерТС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер ТС</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="660cdda6-19d6-4deb-994c-cc2a3300654d">
+    <name>ГаражныйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гаражный номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9436ac4f-a0a8-4b2e-8b74-34545d95e91e">
+    <name>Марка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Марка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0bc08ee2-ba28-4064-afad-e4d09208f0a3">
+    <name>Модель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="666065cb-4db6-44e9-8ce0-b0b75528309a">
+    <name>VIN</name>
+    <synonym>
+      <key>ru</key>
+      <value>VIN</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0de0d06e-6b28-47fe-833e-9a0419a45897">
+    <name>ГодВыпуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год выпуска</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>4</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="77c422bf-2a32-4fdf-9d90-fb54b6c506a6">
+    <name>Грузоподъемность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Грузоподъемность</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f3462e33-6386-4955-9c21-9bec24a31b20">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ced850c-3e1f-484a-a64e-a8e78a4306ef">
+  <producedTypes>
+    <objectType typeId="c748a6fd-bb40-4049-855e-f241b1c34669" valueTypeId="ca20e313-d530-47e6-9367-d10e43a51afe"/>
+    <refType typeId="817ac8a9-221a-40c4-8ef4-99967840f25c" valueTypeId="aa7bd0d3-37cc-4f92-99a8-a441084ffcb0"/>
+    <selectionType typeId="afe1a21d-472a-40e8-bc22-fdeccf4dfcf3" valueTypeId="02d568eb-b7d9-4d61-b649-d5d52675b9f4"/>
+    <listType typeId="259cff42-1fe0-4a54-b0a0-26adccc0ea40" valueTypeId="e8675285-3265-4172-a357-bca63504e024"/>
+    <managerType typeId="d8110e33-5d8d-49a0-bdf1-ae3ba57cbe88" valueTypeId="92347882-22ca-4551-a2cc-607606aea7df"/>
+  </producedTypes>
+  <name>НормативыРасходаГСМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нормативы расхода ГСМ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НормативыРасходаГСМ.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.НормативыРасходаГСМ.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

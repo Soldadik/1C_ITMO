@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a875c9b-04b5-40e6-b054-b2409ff30df6">
+  <producedTypes>
+    <objectType typeId="43ea7701-133c-491b-b334-54e14aec1116" valueTypeId="0d1360da-0110-4528-b653-b33e42835283"/>
+    <refType typeId="94765ad3-b12a-4c14-8c1e-aa4c20cedb23" valueTypeId="6558b67c-f5d0-45f7-9c7b-59010b9d53bf"/>
+    <selectionType typeId="2dccaec8-a482-42ba-b34b-12838480c966" valueTypeId="0e2d794f-c057-4dc7-9a5b-fb11dca5776a"/>
+    <listType typeId="49e18915-84a0-4ec1-9143-a98aa454a1b0" valueTypeId="252c4197-fdfa-4be8-bd9d-b3499264e74a"/>
+    <managerType typeId="89d54e5a-ebfd-4252-a82b-687462991c41" valueTypeId="1936ea02-46c7-4751-9210-baffe1b9159d"/>
+  </producedTypes>
+  <name>Маршруты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Маршруты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Маршруты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Маршруты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

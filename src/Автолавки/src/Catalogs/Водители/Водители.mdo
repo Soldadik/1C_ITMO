@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="425285ed-eb48-48a9-9e15-b707f0887481">
+  <producedTypes>
+    <objectType typeId="e070bea3-9f16-4bd1-9495-28aa60e53662" valueTypeId="6dc286b1-86d0-4ce2-bfea-eefad3a5e041"/>
+    <refType typeId="cbd4fc59-b007-492b-b5fb-a9c508866bf0" valueTypeId="4c12e2c7-b9f3-41f8-a872-eddc2cafe0b5"/>
+    <selectionType typeId="8fbec1b3-ffca-43f0-bd88-cdef969d61a4" valueTypeId="f0ec5ef0-3419-48bf-b0d5-d4e3d35ede85"/>
+    <listType typeId="5ce0f4db-7203-4c04-9170-3e745e2ff9ee" valueTypeId="08eced20-8658-4bc4-aa8d-83643eaf8658"/>
+    <managerType typeId="5b159415-a17e-48a7-b8e4-c2761f3a280e" valueTypeId="4f7e0a15-ebc8-479f-9c8f-79134135ac07"/>
+  </producedTypes>
+  <name>Водители</name>
+  <synonym>
+    <key>ru</key>
+    <value>Водители</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Водители.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Водители.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>10</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="e293a8fe-dcf7-43f4-b260-e9c21d37f319">
+    <name>ТабельныйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табельный номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d1b979e9-2746-46a6-85af-bbbab4c735b3">
+    <name>ФИО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФИО</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="904a5292-b56b-49a7-9eed-fb5da811f151">
+    <name>ВодительскоеУдостоверение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Водительское удостоверение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5006c4e2-f139-4825-ab21-0f1f64bdb1c7">
+    <name>СанитарнаяКнижка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Санитарная книжка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3cefbc0c-f440-4c57-9491-152e2d9c76e9">
+    <name>Телефон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="96efe3ad-650b-494b-810b-156094fd8446">
+    <name>ЗакрепленнаяМашина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрепленная машина</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
