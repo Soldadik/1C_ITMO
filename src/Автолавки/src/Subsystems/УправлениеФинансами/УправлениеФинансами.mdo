@@ -8,4 +8,9 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Role.ПолныеПрава</content>
+  <content>AccumulationRegister.ТоварыНаСкладе</content>
+  <content>Document.ПоступлениеТоваров</content>
+  <content>Document.РеализацияТоваров</content>
+  <content>Document.ПланЗакупок</content>
+  <content>Role.Пользователь</content>
 </mdclass:Subsystem>

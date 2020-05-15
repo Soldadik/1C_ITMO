@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9d212e6-95aa-45b1-8d58-26d0d9a894ba">
+  <producedTypes>
+    <selectionType typeId="660709c3-c7ab-4d03-8a20-fd6c87248d8d" valueTypeId="2d468429-ee07-4bc3-a9d4-571eb0614088"/>
+    <listType typeId="1f8bba7f-bac5-4a82-8a60-551a19f870c8" valueTypeId="18eafce1-0b2d-415d-9d46-a0f8c40e4d82"/>
+    <managerType typeId="338a8239-e94d-4370-976f-96a138e6bc50" valueTypeId="b177147b-23d8-4b4d-9a95-932e84a2bd21"/>
+    <recordSetType typeId="fe49a388-16a4-4c48-8606-c13e1d6e37ec" valueTypeId="1da235da-ac73-4ba0-9f86-b8105f63408f"/>
+    <recordKeyType typeId="c4f5bb19-801d-42c7-acc1-24bbea6089b0" valueTypeId="5a35b136-1a45-4751-a1fe-8cc3e5a89270"/>
+    <recordType typeId="eb8fa7f0-0ebc-4e89-bf3e-c5ed2b13f5cb" valueTypeId="c0814733-f48a-424d-a038-c8c9845b47f4"/>
+  </producedTypes>
+  <name>ТоварыНаСкладе</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товары на складе</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="910f3e72-8bbd-4c1e-a75c-39f16d2ab287">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="32a7b14b-9913-464c-9e55-e91f65890442">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="423dc71d-98c7-4f69-bbeb-7ad0a49c7977">
+    <name>Товар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="d6d5ba9d-aa54-475a-9b3f-f1d3b7b1f610">
+    <name>ТипТовара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип товара</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

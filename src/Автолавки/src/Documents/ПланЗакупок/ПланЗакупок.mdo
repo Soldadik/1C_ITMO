@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca4f1842-81a4-4349-85d2-954a00c5e893">
+  <producedTypes>
+    <objectType typeId="a78e421b-a826-431d-af56-a48cb90a939c" valueTypeId="d47916f9-1eb3-4c91-afb5-13b99ce9644c"/>
+    <refType typeId="c432663b-e12d-48d4-b94f-1e58ef2c8bba" valueTypeId="f0a2144b-1f48-4f1f-8b74-7a4ada10dee6"/>
+    <selectionType typeId="520aa056-c2a3-47c6-8bde-ce139dee3c1f" valueTypeId="042d4697-4696-440b-9830-5a2907f5292b"/>
+    <listType typeId="1dd05abb-0779-477d-88a7-abdc47c75431" valueTypeId="856b0b12-60dd-4fde-9e00-127523258991"/>
+    <managerType typeId="5354ad8c-0981-4c42-a1f2-094d557481b0" valueTypeId="6ce195ac-e11a-43ca-8532-f1233c6ab1fb"/>
+  </producedTypes>
+  <name>ПланЗакупок</name>
+  <synonym>
+    <key>ru</key>
+    <value>План закупок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПланЗакупок.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>

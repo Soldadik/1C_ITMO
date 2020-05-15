@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47220b46-5178-4ad1-be10-e6c554b7ea7b">
+  <producedTypes>
+    <objectType typeId="4d19b5a2-5c02-4410-a76c-24f2630460e3" valueTypeId="96673ce9-b9b0-4883-acf1-eaeac0c4e0fb"/>
+    <refType typeId="9546d833-b240-4d71-9141-b10c778e1484" valueTypeId="fed2ba4a-b37c-4866-bc97-606f5656d5ac"/>
+    <selectionType typeId="14c6545d-2709-443a-9aa1-7c686bc37cf4" valueTypeId="c5ab8ab2-734b-432f-8c39-dda1a0924f47"/>
+    <listType typeId="27e61d84-97ff-419d-be69-04b31130962a" valueTypeId="abb43242-77d7-42bb-8f61-55badba48e63"/>
+    <managerType typeId="149d2207-6134-4ea8-b5f6-232516d38891" valueTypeId="1f93fe07-ef15-44e7-888a-e5a25a250374"/>
+  </producedTypes>
+  <name>ПутевойЛист</name>
+  <synonym>
+    <key>ru</key>
+    <value>Путевой лист</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПутевойЛист.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>

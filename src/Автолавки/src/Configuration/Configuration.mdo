@@ -55,4 +55,9 @@
   <catalogs>Catalog.Маршруты</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.НормативыРасходаГСМ</catalogs>
+  <documents>Document.ПутевойЛист</documents>
+  <documents>Document.ПоступлениеТоваров</documents>
+  <documents>Document.РеализацияТоваров</documents>
+  <documents>Document.ПланЗакупок</documents>
+  <accumulationRegisters>AccumulationRegister.ТоварыНаСкладе</accumulationRegisters>
 </mdclass:Configuration>

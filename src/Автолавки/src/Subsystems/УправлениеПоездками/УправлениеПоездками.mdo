@@ -8,4 +8,6 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Role.ПолныеПрава</content>
+  <content>Document.ПутевойЛист</content>
+  <content>Role.Пользователь</content>
 </mdclass:Subsystem>
