@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b60023a-0b2c-4798-b124-d82739c96efa">
+  <producedTypes>
+    <objectType typeId="5eec68c9-061c-41d5-8dae-ed1e22042146" valueTypeId="40185fe1-055a-4512-b3ce-8cc7695b2123"/>
+    <managerType typeId="c32d3594-18b6-4030-a008-45f4b290930c" valueTypeId="f2cdf729-5f4b-4df3-8b52-0d8e25ceb3e1"/>
+  </producedTypes>
+  <name>ОтчетЗатратыГСМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет затраты ГСМ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Report>

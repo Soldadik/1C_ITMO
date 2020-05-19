@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Sequence xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d44fc0c-bdf8-48c5-a3d0-5197bcf072c6">
+  <producedTypes>
+    <recordType typeId="3392a730-1cf5-4710-8454-8bd6fe975e16" valueTypeId="9411f077-5c23-4949-a402-bb1431598916"/>
+    <managerType typeId="6ad131a9-9bdc-49f4-9b97-b239bd6e3c87" valueTypeId="d7a79e0f-e7b9-4050-ac65-261fcb695b90"/>
+    <recordSetType typeId="8a11c647-efa2-4643-9076-51ae10946947" valueTypeId="b4e3ce60-6448-4999-8bb2-46c906133e35"/>
+  </producedTypes>
+  <name>КонтрольОстатковТоваровСклад</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль остатков товаров склад</value>
+  </synonym>
+  <documents>Document.РеализацияТоваров</documents>
+  <registerRecords>AccumulationRegister.ТоварыНаСкладе</registerRecords>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Sequence>

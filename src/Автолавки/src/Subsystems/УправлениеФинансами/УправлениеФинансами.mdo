@@ -13,4 +13,5 @@
   <content>Document.РеализацияТоваров</content>
   <content>Document.ПланЗакупок</content>
   <content>Role.Пользователь</content>
+  <content>Report.ОстаткиТоваров</content>
 </mdclass:Subsystem>

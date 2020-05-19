@@ -59,5 +59,8 @@
   <documents>Document.ПоступлениеТоваров</documents>
   <documents>Document.РеализацияТоваров</documents>
   <documents>Document.ПланЗакупок</documents>
+  <sequences>Sequence.КонтрольОстатковТоваровСклад</sequences>
+  <reports>Report.ОтчетЗатратыГСМ</reports>
+  <reports>Report.ОстаткиТоваров</reports>
   <accumulationRegisters>AccumulationRegister.ТоварыНаСкладе</accumulationRegisters>
 </mdclass:Configuration>

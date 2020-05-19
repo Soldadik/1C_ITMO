@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b88f282-d08c-48fa-95d7-53cf8c123564">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b88f282-d08c-48fa-95d7-53cf8c123564">
   <producedTypes>
     <objectType typeId="0bbc9b9d-b2ef-4979-8ddb-bf97f62510c3" valueTypeId="c7f9455a-30d8-47d0-a961-f5ad7f4b1121"/>
     <refType typeId="1cf9ae33-c7c7-44bc-8ded-c54b62d55907" valueTypeId="ea341e6e-2252-4b25-b154-2daa1da3d25a"/>
@@ -26,4 +26,48 @@
   <registerRecords>AccumulationRegister.ТоварыНаСкладе</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <tabularSections uuid="0c90778b-321e-48ee-903b-5c9ce5fd8375">
+    <producedTypes>
+      <objectType typeId="4f56dda1-161c-4a91-8f29-3f2e1d12af9c" valueTypeId="9d2d3bf1-973f-4a4d-9996-2c9b9b5a1fb0"/>
+      <rowType typeId="fa99774f-7d3c-47ec-8138-193bf7fb87c2" valueTypeId="2c651bc4-a110-42b4-922e-3f964f7f91f4"/>
+    </producedTypes>
+    <name>СписокТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список товаров</value>
+    </synonym>
+    <attributes uuid="74a44a54-b9be-4841-9c7d-17028b449f42">
+      <name>Товар</name>
+      <synonym>
+        <key>ru</key>
+        <value>Товар</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Товары</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0f3d4b0d-7dd1-4c26-a7c6-0ddbcd798380">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
 </mdclass:Document>
