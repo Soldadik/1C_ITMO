@@ -55,12 +55,19 @@
   <catalogs>Catalog.Маршруты</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.НормативыРасходаГСМ</catalogs>
+  <documents>Document.ГрафикПоездки</documents>
   <documents>Document.ПутевойЛист</documents>
+  <documents>Document.ЗагрузкаТоваровВАвтолавку</documents>
+  <documents>Document.РеализацияТоваровАвтолавкой</documents>
   <documents>Document.ПоступлениеТоваров</documents>
   <documents>Document.РеализацияТоваров</documents>
   <documents>Document.ПланЗакупок</documents>
   <sequences>Sequence.КонтрольОстатковТоваровСклад</sequences>
+  <enums>Enum.СтатусТС</enums>
+  <reports>Report.ОстаткиТоваровВАвтолавке</reports>
   <reports>Report.ОтчетЗатратыГСМ</reports>
   <reports>Report.ОстаткиТоваров</reports>
+  <accumulationRegisters>AccumulationRegister.ТоварыВАвтолавке</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ТоварыНаСкладе</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
 </mdclass:Configuration>

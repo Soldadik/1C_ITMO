@@ -25,4 +25,120 @@
   <autonumbering>true</autonumbering>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="033ae4dc-1256-4632-8752-05093ce9fadf">
+    <name>НомерГрафика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер графика</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ГрафикПоездки</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c869596b-476c-438a-a3eb-5ae69af210dd">
+    <name>ОстатокГорючегоПриВыезде</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остаток горючего при выезде</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="725d55dd-42a2-4904-90bf-ca5eafec0eee">
+    <name>ОстатокГорючегоПоВозвращении</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остаток горючего по возвращении</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="4b410ff5-80c4-4da4-8a42-251745185a46">
+    <producedTypes>
+      <objectType typeId="2a548a85-5a03-422b-b223-4e1235ed9a5c" valueTypeId="4fc937f8-7864-43d1-b881-ef14c99cf9e4"/>
+      <rowType typeId="c8c498da-4683-4b5a-970c-2463a7bd5852" valueTypeId="62a82383-fc27-4445-981d-66fdce6f621b"/>
+    </producedTypes>
+    <name>СписокТочек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список точек</value>
+    </synonym>
+    <attributes uuid="c9cdbd45-9769-4739-b951-a4e2f2216455">
+      <name>ТочкаМаршрута</name>
+      <synonym>
+        <key>ru</key>
+        <value>Точка маршрута</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f7d0aa6c-10c6-46c7-b0fb-67ba8a7d29e4">
+      <name>ВремяПоГрафику</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время по графику</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Time</dateFractions>
+        </dateQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f39ef558-de34-4d3d-bc83-8e774d6304e7">
+      <name>ФактическоеВремя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Фактическое время</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Time</dateFractions>
+        </dateQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="abb58a96-0aeb-4680-9548-cedd57147291">
+      <name>ОстатокГорючего</name>
+      <synonym>
+        <key>ru</key>
+        <value>Остаток горючего</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
 </mdclass:Document>

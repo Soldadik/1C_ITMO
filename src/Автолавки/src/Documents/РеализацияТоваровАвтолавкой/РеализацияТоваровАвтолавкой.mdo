@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f5ede9b-e5b7-4c43-81e2-576ba7b26505">
+  <producedTypes>
+    <objectType typeId="63e4796a-fd94-44a2-a234-07f61f243e88" valueTypeId="b4d18bfb-b471-4a60-892d-7aa643e3a339"/>
+    <refType typeId="236df4ca-8f5a-476e-8d6e-189a3c89311f" valueTypeId="4693fc53-b772-4322-84a2-033c81a44382"/>
+    <selectionType typeId="4ba693ca-03bd-4c7e-b4e9-e60e273c51b1" valueTypeId="d28ba439-9fc1-46d5-b955-90ce3f18ca9f"/>
+    <listType typeId="8abe4858-4982-4797-a193-eade85ba962e" valueTypeId="3b9327ac-b95a-4a25-bc77-ca28d16ccd98"/>
+    <managerType typeId="de20a46a-b4a6-4af9-8492-a7b98e25e609" valueTypeId="b38e75d4-ef1f-427a-b7c8-f7dfca720256"/>
+  </producedTypes>
+  <name>РеализацияТоваровАвтолавкой</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реализация товаров автолавкой</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.РеализацияТоваровАвтолавкой.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.ТоварыВАвтолавке</registerRecords>
+  <registerRecords>AccumulationRegister.Продажи</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="a9776387-3deb-4d7a-a91a-a9054ab6dd2f">
+    <name>НомерПутевогоЛиста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер путевого листа</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПутевойЛист</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="340602f6-b3c2-4c29-a96e-4145de150e5f">
+    <producedTypes>
+      <objectType typeId="4f53fe5d-05a5-4da7-ad6c-53796c9d84f9" valueTypeId="972c1fcd-7518-429f-a289-c061b1845c45"/>
+      <rowType typeId="6ab084df-1282-4a69-a681-c812cf27a14b" valueTypeId="06bf2e46-8102-4475-b7ee-8ff011bac98a"/>
+    </producedTypes>
+    <name>СписокТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список товаров</value>
+    </synonym>
+    <attributes uuid="a64ee382-6428-4cf5-9fa9-c45ec7d17555">
+      <name>Товар</name>
+      <synonym>
+        <key>ru</key>
+        <value>Товар</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Товары</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="31c88cf1-43a5-4e67-b37d-fc52dbb75e5e">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

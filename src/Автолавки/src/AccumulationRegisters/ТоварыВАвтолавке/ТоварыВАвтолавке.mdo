@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37397ebe-9f60-45c0-bd5a-99672d9fa01c">
+  <producedTypes>
+    <selectionType typeId="883c8c6d-5768-4083-b0ff-d2ffc3a43a08" valueTypeId="b644d297-66da-4dc5-ab52-72a0959da01e"/>
+    <listType typeId="0b6cc64b-60b8-4e58-ac60-58f09a093fc4" valueTypeId="9b3150cc-279c-4633-b95f-55dcd51618fb"/>
+    <managerType typeId="78653fc8-dc82-404a-bf8a-e7e597e69f8e" valueTypeId="89163a43-07e6-414e-a7ea-f01271391d37"/>
+    <recordSetType typeId="75039091-c12f-476b-be2d-42e86677926b" valueTypeId="ba472655-c27a-42a2-8e76-b669b380e912"/>
+    <recordKeyType typeId="171d1334-374b-4bfd-b3f9-26a35a32e349" valueTypeId="993b87d5-d7ba-4086-bf0d-22bf6c2c0001"/>
+    <recordType typeId="43303bd7-e2ac-4fb6-9553-908939629a2d" valueTypeId="6c6010cd-5d8f-4cdb-9abd-f1db77edef69"/>
+  </producedTypes>
+  <name>ТоварыВАвтолавке</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товары в автолавке</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="4bdaa250-644f-47ab-97d7-8f705a76688c">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="6f058da5-b8d2-4aab-adb2-cba6d617c047">
+    <name>Товар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Товары</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

@@ -10,4 +10,10 @@
   <content>Role.ПолныеПрава</content>
   <content>Document.ПутевойЛист</content>
   <content>Role.Пользователь</content>
+  <content>Document.ГрафикПоездки</content>
+  <content>AccumulationRegister.Продажи</content>
+  <content>Document.РеализацияТоваровАвтолавкой</content>
+  <content>AccumulationRegister.ТоварыВАвтолавке</content>
+  <content>Report.ОстаткиТоваровВАвтолавке</content>
+  <content>Document.ЗагрузкаТоваровВАвтолавку</content>
 </mdclass:Subsystem>

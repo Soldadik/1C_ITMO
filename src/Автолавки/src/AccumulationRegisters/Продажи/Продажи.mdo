@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="613ab95b-92ab-4212-b511-d934e56328e1">
+  <producedTypes>
+    <selectionType typeId="039a0fa1-ad6f-4973-8608-14846fa1fb39" valueTypeId="2c013b34-527f-4c2a-a152-9dea577bd937"/>
+    <listType typeId="08006aea-a727-40bf-9a6b-e9c9a2abac01" valueTypeId="0951fc77-c1f5-4900-a460-e4088076fd87"/>
+    <managerType typeId="89b3a06e-7832-4b97-93a9-7f67c50dfec1" valueTypeId="9621dc26-4be4-4330-b811-e95edddc28a5"/>
+    <recordSetType typeId="9cf457f3-6b24-458e-a119-b944222d1e46" valueTypeId="f6e193e1-894a-450c-a94f-fe537bbdde2f"/>
+    <recordKeyType typeId="264c0255-26db-4141-8547-62e40cea3af0" valueTypeId="a68c698b-fddf-4121-819e-005e690f13d6"/>
+    <recordType typeId="8e2c51b7-9390-4578-97f2-0da642ecd96b" valueTypeId="897c92be-f595-4c40-8369-270faddf078c"/>
+  </producedTypes>
+  <name>Продажи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="858afd45-be6d-4b9b-a2ee-b987adcc6383">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="60bf2708-db82-49e8-9b5b-3154c4a9d4b4">
+    <name>Товар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Товары</types>
+    </type>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

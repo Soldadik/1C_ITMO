@@ -30,4 +30,30 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="71de14a0-0f58-41ea-b0a0-fdcd49cbfb97">
+    <producedTypes>
+      <objectType typeId="a3112bea-1a28-41bc-8537-0a770834ad75" valueTypeId="50cd6098-fcdc-45aa-93ce-f7d16890a7d5"/>
+      <rowType typeId="dd79fa47-b329-420a-b833-2a0b8b09affc" valueTypeId="6d6f68b2-c0d4-4ed9-8361-42a0368ce2e8"/>
+    </producedTypes>
+    <name>ТочкиОстановки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точки остановки</value>
+    </synonym>
+    <attributes uuid="c1e71a37-2d9a-41a7-9553-f0a06f80236f">
+      <name>ТочкаОстановки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Точка остановки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>14</length>
+        </stringQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
 </mdclass:Catalog>
