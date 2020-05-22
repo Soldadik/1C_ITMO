@@ -79,6 +79,38 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="836bceee-e62b-42ca-8d8a-b9d0c6e7f11e">
+    <name>СредстваВодителяПриВыезде</name>
+    <synonym>
+      <key>ru</key>
+      <value>Средства водителя при выезде</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2700556f-8c29-40c7-bca7-03892dbf0e9b">
+    <name>СредстваВодителяПоВозвращении</name>
+    <synonym>
+      <key>ru</key>
+      <value>Средства водителя по возвращении</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="4b410ff5-80c4-4da4-8a42-251745185a46">
     <producedTypes>
       <objectType typeId="2a548a85-5a03-422b-b223-4e1235ed9a5c" valueTypeId="4fc937f8-7864-43d1-b881-ef14c99cf9e4"/>
@@ -186,6 +218,22 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0db6c6df-5202-45cd-8085-d61a3cf1e566">
+      <name>ОстатокДенежныхСредств</name>
+      <synonym>
+        <key>ru</key>
+        <value>Остаток денежных средств</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>

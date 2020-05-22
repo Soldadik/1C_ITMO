@@ -27,6 +27,21 @@
   <registerRecords>AccumulationRegister.ТоварыНаСкладе</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="c0eec8aa-27cb-49b1-8bc4-f365e16440b8">
+    <name>Поставщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставщик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="afb74ca2-bc7b-4a99-b946-a5ce6f930598">
     <producedTypes>
       <objectType typeId="aff6bcf5-08a8-4727-835f-ff187f6ee0ab" valueTypeId="3edb19ca-da62-4d5f-8b0d-864098d95bc4"/>
