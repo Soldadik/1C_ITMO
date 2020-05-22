@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74498f16-f4b2-4e70-8616-c74e52fdb8de">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74498f16-f4b2-4e70-8616-c74e52fdb8de">
   <producedTypes>
     <objectType typeId="a6b36f60-2584-4193-8599-4ba881b083e8" valueTypeId="dd6a136f-f41a-49ec-8afa-f4c35fb02af0"/>
     <refType typeId="e1d3a9d1-5849-4f01-ab2e-a91ce6aeae2b" valueTypeId="b6ef9f60-fa6c-4a99-956b-54be9085f1be"/>
@@ -15,6 +15,7 @@
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.ГрафикПоездки.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Catalog.Маршруты</basedOn>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
@@ -34,6 +35,9 @@
     <type>
       <types>CatalogRef.Маршруты</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -46,6 +50,9 @@
     <type>
       <types>CatalogRef.Водители</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -61,6 +68,9 @@
         <dateFractions>Date</dateFractions>
       </dateQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -81,11 +91,10 @@
         <value>Точка маршрута</value>
       </synonym>
       <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>10</length>
-        </stringQualifiers>
+        <types>CatalogRef.НаселенныеПункты</types>
       </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
@@ -101,6 +110,8 @@
           <dateFractions>Time</dateFractions>
         </dateQualifiers>
       </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
@@ -116,8 +127,13 @@
           <dateFractions>Time</dateFractions>
         </dateQualifiers>
       </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <templates uuid="cafa6924-d456-467c-9747-3e17fe802bd9">
+    <name>Макет</name>
+  </templates>
 </mdclass:Document>

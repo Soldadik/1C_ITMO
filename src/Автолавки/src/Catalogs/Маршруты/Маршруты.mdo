@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a875c9b-04b5-40e6-b054-b2409ff30df6">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a875c9b-04b5-40e6-b054-b2409ff30df6">
   <producedTypes>
     <objectType typeId="43ea7701-133c-491b-b334-54e14aec1116" valueTypeId="0d1360da-0110-4528-b653-b33e42835283"/>
     <refType typeId="94765ad3-b12a-4c14-8c1e-aa4c20cedb23" valueTypeId="6558b67c-f5d0-45f7-9c7b-59010b9d53bf"/>
@@ -47,11 +47,10 @@
         <value>Точка остановки</value>
       </synonym>
       <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>14</length>
-        </stringQualifiers>
+        <types>CatalogRef.НаселенныеПункты</types>
       </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>

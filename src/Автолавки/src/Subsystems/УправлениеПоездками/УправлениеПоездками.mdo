@@ -16,4 +16,5 @@
   <content>AccumulationRegister.ТоварыВАвтолавке</content>
   <content>Report.ОстаткиТоваровВАвтолавке</content>
   <content>Document.ЗагрузкаТоваровВАвтолавку</content>
+  <content>Report.АнализПродаж</content>
 </mdclass:Subsystem>

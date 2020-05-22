@@ -55,6 +55,7 @@
   <catalogs>Catalog.Маршруты</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.НормативыРасходаГСМ</catalogs>
+  <catalogs>Catalog.НаселенныеПункты</catalogs>
   <documents>Document.ГрафикПоездки</documents>
   <documents>Document.ПутевойЛист</documents>
   <documents>Document.ЗагрузкаТоваровВАвтолавку</documents>
@@ -64,10 +65,14 @@
   <documents>Document.ПланЗакупок</documents>
   <sequences>Sequence.КонтрольОстатковТоваровСклад</sequences>
   <enums>Enum.СтатусТС</enums>
+  <enums>Enum.СтатусНаселенногоПункта</enums>
   <reports>Report.ОстаткиТоваровВАвтолавке</reports>
   <reports>Report.ОтчетЗатратыГСМ</reports>
   <reports>Report.ОстаткиТоваров</reports>
+  <reports>Report.АнализПродаж</reports>
+  <reports>Report.Закупки</reports>
   <accumulationRegisters>AccumulationRegister.ТоварыВАвтолавке</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ТоварыНаСкладе</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Закупки</accumulationRegisters>
 </mdclass:Configuration>

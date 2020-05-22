@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="694dc932-3ba3-4c2b-b13a-b69eb841b38e">
+  <producedTypes>
+    <objectType typeId="4ca78d2e-e14d-4f58-b4bd-b04ea4506b76" valueTypeId="1a4a637b-7e29-48b3-998a-43780de3d07f"/>
+    <refType typeId="cc8b079a-43b3-44fc-a94e-fc771f70610d" valueTypeId="9259e6fb-0027-46a5-a44f-b49ae7375ad3"/>
+    <selectionType typeId="305a1bdd-ef1a-49c2-a790-4682717ffcc2" valueTypeId="c3e0a71a-6f63-4556-ad13-523bb3be4793"/>
+    <listType typeId="b62bacb3-4d5f-47f2-992d-74b3523c15d1" valueTypeId="6b71c22a-0dad-4d65-adfb-0d96bc4913c2"/>
+    <managerType typeId="e55479ef-5f69-4405-b7b4-ea4f21c418cb" valueTypeId="bfbcca19-b45a-4cf2-881e-f36495b01f00"/>
+  </producedTypes>
+  <name>НаселенныеПункты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Населенные пункты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НаселенныеПункты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.НаселенныеПункты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

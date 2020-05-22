@@ -15,4 +15,5 @@
   <content>Catalog.НормативыРасходаГСМ</content>
   <content>Role.ПолныеПрава</content>
   <content>Role.Пользователь</content>
+  <content>Catalog.НаселенныеПункты</content>
 </mdclass:Subsystem>

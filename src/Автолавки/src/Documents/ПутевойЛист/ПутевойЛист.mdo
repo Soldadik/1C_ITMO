@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47220b46-5178-4ad1-be10-e6c554b7ea7b">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47220b46-5178-4ad1-be10-e6c554b7ea7b">
   <producedTypes>
     <objectType typeId="4d19b5a2-5c02-4410-a76c-24f2630460e3" valueTypeId="96673ce9-b9b0-4883-acf1-eaeac0c4e0fb"/>
     <refType typeId="9546d833-b240-4d71-9141-b10c778e1484" valueTypeId="fed2ba4a-b37c-4866-bc97-606f5656d5ac"/>
@@ -15,6 +15,7 @@
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.ПутевойЛист.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Document.ГрафикПоездки</basedOn>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
@@ -34,6 +35,9 @@
     <type>
       <types>DocumentRef.ГрафикПоездки</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -50,6 +54,9 @@
         <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -66,6 +73,9 @@
         <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -86,19 +96,18 @@
         <value>Точка маршрута</value>
       </synonym>
       <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>20</length>
-        </stringQualifiers>
+        <types>CatalogRef.НаселенныеПункты</types>
       </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="f7d0aa6c-10c6-46c7-b0fb-67ba8a7d29e4">
-      <name>ВремяПоГрафику</name>
+      <name>ВремяПрибытияПоГрафику</name>
       <synonym>
         <key>ru</key>
-        <value>Время по графику</value>
+        <value>Время прибытия по графику</value>
       </synonym>
       <type>
         <types>Date</types>
@@ -106,14 +115,16 @@
           <dateFractions>Time</dateFractions>
         </dateQualifiers>
       </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="f39ef558-de34-4d3d-bc83-8e774d6304e7">
-      <name>ФактическоеВремя</name>
+      <name>ФактическоеВремяПрибытия</name>
       <synonym>
         <key>ru</key>
-        <value>Фактическое время</value>
+        <value>Фактическое время прибытия</value>
       </synonym>
       <type>
         <types>Date</types>
@@ -121,6 +132,42 @@
           <dateFractions>Time</dateFractions>
         </dateQualifiers>
       </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a109dd4e-6e8a-4ed0-b270-0f3d8165e3d5">
+      <name>ВремяОтбытияПоГрафику</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время отбытия по графику</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Time</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2fc9d1b6-938b-4366-9f56-99ccbb73875e">
+      <name>ФактическоеВремяОтбытия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Фактическое время отбытия</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Time</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
@@ -136,6 +183,20 @@
           <precision>10</precision>
           <nonNegative>true</nonNegative>
         </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f26873e9-b87a-4b6b-bb3e-af847a26423b">
+      <name>Статус</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статус</value>
+      </synonym>
+      <type>
+        <types>EnumRef.СтатусНаселенногоПункта</types>
       </type>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>

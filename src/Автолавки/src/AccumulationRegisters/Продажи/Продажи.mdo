@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:AccumulationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="613ab95b-92ab-4212-b511-d934e56328e1">
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="613ab95b-92ab-4212-b511-d934e56328e1">
   <producedTypes>
     <selectionType typeId="039a0fa1-ad6f-4973-8608-14846fa1fb39" valueTypeId="2c013b34-527f-4c2a-a152-9dea577bd937"/>
     <listType typeId="08006aea-a727-40bf-9a6b-e9c9a2abac01" valueTypeId="0951fc77-c1f5-4900-a460-e4088076fd87"/>
@@ -31,6 +31,8 @@
         <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
   <dimensions uuid="60bf2708-db82-49e8-9b5b-3154c4a9d4b4">
@@ -42,7 +44,23 @@
     <type>
       <types>CatalogRef.Товары</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="f3605c14-f2aa-4e21-8c69-f2ac6da5ea48">
+    <name>ПутевойЛист</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путевой лист</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПутевойЛист</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>

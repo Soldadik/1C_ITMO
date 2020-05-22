@@ -14,4 +14,7 @@
   <content>Document.ПланЗакупок</content>
   <content>Role.Пользователь</content>
   <content>Report.ОстаткиТоваров</content>
+  <content>Sequence.КонтрольОстатковТоваровСклад</content>
+  <content>Report.Закупки</content>
+  <content>AccumulationRegister.Закупки</content>
 </mdclass:Subsystem>

@@ -14,8 +14,8 @@
 			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Остаток</dataPath>
-			<field>КоличествоОстаток</field>
+			<dataPath>Количество</dataPath>
+			<field>КоличествоОборот</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>ПутевойЛист</dataPath>
@@ -26,22 +26,23 @@
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	ТоварыВАвтолавкеОстатки.Товар КАК Товар,
-	ТоварыВАвтолавкеОстатки.ПутевойЛист КАК ПутевойЛист,
-	ТоварыВАвтолавкеОстатки.КоличествоОстаток КАК КоличествоОстаток
+	ПродажиОбороты.Товар КАК Товар,
+	ПродажиОбороты.ПутевойЛист КАК ПутевойЛист,
+	ПродажиОбороты.КоличествоОборот КАК КоличествоОборот
 ИЗ
-	РегистрНакопления.ТоварыВАвтолавке.Остатки КАК ТоварыВАвтолавкеОстатки</query>
+	РегистрНакопления.Продажи.Обороты КАК ПродажиОбороты</query>
 	</dataSet>
 	<totalField>
-		<dataPath>Остаток</dataPath>
-		<expression>Сумма(Остаток)</expression>
+		<dataPath>Количество</dataPath>
+		<expression>Сумма(Количество)</expression>
+		<group>Товар</group>
 	</totalField>
 	<parameter>
-		<name>Период</name>
+		<name>НачалоПериода</name>
 		<title xsi:type="v8:LocalStringType">
 			<v8:item>
 				<v8:lang>ru</v8:lang>
-				<v8:content>Период</v8:content>
+				<v8:content>Начало периода</v8:content>
 			</v8:item>
 		</title>
 		<valueType>
@@ -51,20 +52,43 @@
 			</v8:DateQualifiers>
 		</valueType>
 		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
-		<useRestriction>false</useRestriction>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;ПериодОтчета.ДатаНачала</expression>
 	</parameter>
 	<parameter>
-		<name>Автолавка</name>
+		<name>КонецПериода</name>
 		<title xsi:type="v8:LocalStringType">
 			<v8:item>
 				<v8:lang>ru</v8:lang>
-				<v8:content>Автолавка</v8:content>
+				<v8:content>Конец периода</v8:content>
 			</v8:item>
 		</title>
 		<valueType>
-			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:DocumentRef.ПутевойЛист</v8:Type>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
 		</valueType>
-		<value xsi:nil="true"/>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;ПериодОтчета.ДатаОкончания</expression>
+	</parameter>
+	<parameter>
+		<name>ПериодОтчета</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период отчета</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
 		<useRestriction>false</useRestriction>
 	</parameter>
 	<settingsVariant>
@@ -73,21 +97,16 @@
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
 			<dcsset:selection>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>Остаток</dcsset:field>
+					<dcsset:field>Количество</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
 			<dcsset:dataParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:use>false</dcscor:use>
-					<dcscor:parameter>Период</dcscor:parameter>
-					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
-					<dcsset:userSettingID>663ed909-eee6-43fc-8345-0274ac33dedf</dcsset:userSettingID>
-				</dcscor:item>
-				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:use>false</dcscor:use>
-					<dcscor:parameter>Автолавка</dcscor:parameter>
-					<dcscor:value xsi:nil="true"/>
-					<dcsset:userSettingID>8a874e18-73ff-4c96-90fd-2a9bf989d81f</dcsset:userSettingID>
+					<dcscor:parameter>ПериодОтчета</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">ThisWeek</v8:variant>
+					</dcscor:value>
+					<dcsset:userSettingID>9e4bfcfe-a39d-4fe5-9a3c-70a38beae51b</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
 			<dcsset:item xsi:type="dcsset:StructureItemTable">

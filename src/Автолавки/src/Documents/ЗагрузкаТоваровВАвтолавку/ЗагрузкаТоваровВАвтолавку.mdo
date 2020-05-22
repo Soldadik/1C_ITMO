@@ -24,6 +24,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <registerRecords>AccumulationRegister.ТоварыВАвтолавке</registerRecords>
+  <registerRecords>AccumulationRegister.ТоварыНаСкладе</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="d73ddfb4-c9f6-4809-8f0b-2f2a021f1c9c">

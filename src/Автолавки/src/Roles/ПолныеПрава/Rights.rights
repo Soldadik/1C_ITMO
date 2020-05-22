@@ -4,29 +4,7 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>Catalog.Водители</name>
-		<right>
-			<name>InteractiveDelete</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDeletePredefinedData</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ТС</name>
-		<right>
-			<name>InteractiveDelete</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDeletePredefinedData</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Товары</name>
+		<name>Catalog.НормативыРасходаГСМ</name>
 		<right>
 			<name>InteractiveDelete</name>
 			<value>false</value>
@@ -48,24 +26,46 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Контрагенты</name>
+		<name>Catalog.Водители</name>
 		<right>
-			<name>InteractiveDeletePredefinedData</name>
+			<name>InteractiveDelete</name>
 			<value>false</value>
 		</right>
 		<right>
-			<name>InteractiveDelete</name>
+			<name>InteractiveDeletePredefinedData</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.НормативыРасходаГСМ</name>
+		<name>Catalog.Товары</name>
+		<right>
+			<name>InteractiveDelete</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>InteractiveDeletePredefinedData</name>
 			<value>false</value>
 		</right>
+	</object>
+	<object>
+		<name>Catalog.Контрагенты</name>
 		<right>
 			<name>InteractiveDelete</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveDeletePredefinedData</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ТС</name>
+		<right>
+			<name>InteractiveDelete</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveDeletePredefinedData</name>
 			<value>false</value>
 		</right>
 	</object>

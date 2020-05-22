@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="166225a7-99e7-4759-ac94-efebe11643b9">
+  <producedTypes>
+    <refType typeId="0849bccd-1f1a-4e91-af93-332c589cf619" valueTypeId="11e25a53-9a03-4024-9551-fa805da77a2b"/>
+    <listType typeId="65971732-ae81-4fa1-8beb-ec6c464bc7bf" valueTypeId="ca9e7d45-d48c-4cf0-8aeb-660af6bb0cab"/>
+    <managerType typeId="d4c4f084-895c-47c0-989d-64360c7fb9ad" valueTypeId="7c93c989-cf7c-46b4-82b0-092cf5dce5f2"/>
+  </producedTypes>
+  <name>СтатусНаселенногоПункта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус населенного пункта</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d718ce8a-dfe9-490c-afc1-c0abbdaf05be">
+    <name>Посещен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Посещен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="73c190b9-048a-4a15-91d3-403cbcad0787">
+    <name>НеПосещен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не посещен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
