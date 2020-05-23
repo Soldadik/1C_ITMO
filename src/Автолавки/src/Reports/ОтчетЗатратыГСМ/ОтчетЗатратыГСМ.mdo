@@ -10,4 +10,14 @@
     <value>Отчет затраты ГСМ</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчетЗатратыГСМ.Form.ФормаОтчета</defaultForm>
+  <forms uuid="6bccd919-8081-4f8f-9010-c89770b16867">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Report>

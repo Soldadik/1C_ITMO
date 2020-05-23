@@ -30,6 +30,27 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="a6c75e9a-7a28-493c-aa90-1e271d63879c">
+    <name>ДлинаМаршрута</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длина маршрута</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="71de14a0-0f58-41ea-b0a0-fdcd49cbfb97">
     <producedTypes>
       <objectType typeId="a3112bea-1a28-41bc-8537-0a770834ad75" valueTypeId="50cd6098-fcdc-45aa-93ce-f7d16890a7d5"/>

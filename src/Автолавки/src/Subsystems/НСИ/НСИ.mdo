@@ -16,4 +16,5 @@
   <content>Role.ПолныеПрава</content>
   <content>Role.Пользователь</content>
   <content>Catalog.НаселенныеПункты</content>
+  <content>Report.ОтчетЗатратыГСМ</content>
 </mdclass:Subsystem>
