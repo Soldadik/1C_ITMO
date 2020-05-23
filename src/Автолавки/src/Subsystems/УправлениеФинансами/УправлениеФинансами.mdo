@@ -11,10 +11,12 @@
   <content>AccumulationRegister.ТоварыНаСкладе</content>
   <content>Document.ПоступлениеТоваров</content>
   <content>Document.РеализацияТоваров</content>
-  <content>Document.ПланЗакупок</content>
   <content>Role.Пользователь</content>
   <content>Report.ОстаткиТоваров</content>
   <content>Sequence.КонтрольОстатковТоваровСклад</content>
   <content>Report.Закупки</content>
   <content>AccumulationRegister.Закупки</content>
+  <content>Document.ПланЗакупок</content>
+  <content>Enum.СтатусПланаЗакупок</content>
+  <content>ca54a365-8568-4057-9996-a20ae5f6b36b</content>
 </mdclass:Subsystem>

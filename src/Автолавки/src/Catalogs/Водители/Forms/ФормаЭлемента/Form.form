@@ -8,8 +8,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Код</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.Code</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>КодРасширеннаяПодсказка</name>
@@ -58,8 +60,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ТабельныйНомер</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.ТабельныйНомер</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>ТабельныйНомерРасширеннаяПодсказка</name>
@@ -108,8 +112,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ФИО</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.ФИО</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>ФИОРасширеннаяПодсказка</name>
@@ -158,8 +164,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ВодительскоеУдостоверение</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.ВодительскоеУдостоверение</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>ВодительскоеУдостоверениеРасширеннаяПодсказка</name>
@@ -208,8 +216,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.СанитарнаяКнижка</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.СанитарнаяКнижка</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>СанитарнаяКнижкаРасширеннаяПодсказка</name>
@@ -258,8 +268,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Телефон</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.Телефон</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>ТелефонРасширеннаяПодсказка</name>
@@ -308,8 +320,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ЗакрепленнаяМашина</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.ЗакрепленнаяМашина</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>ЗакрепленнаяМашинаРасширеннаяПодсказка</name>

@@ -66,6 +66,7 @@
   <sequences>Sequence.КонтрольОстатковТоваровСклад</sequences>
   <enums>Enum.СтатусТС</enums>
   <enums>Enum.СтатусНаселенногоПункта</enums>
+  <enums>Enum.СтатусПланаЗакупок</enums>
   <reports>Report.ОстаткиТоваровВАвтолавке</reports>
   <reports>Report.ОтчетЗатратыГСМ</reports>
   <reports>Report.ОстаткиТоваров</reports>

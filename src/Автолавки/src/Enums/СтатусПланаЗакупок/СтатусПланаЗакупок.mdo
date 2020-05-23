@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f51ba55c-f73f-459f-a439-a196d88fa6f2">
+  <producedTypes>
+    <refType typeId="75afb2be-2c92-4e6a-95d5-4d3bd982050d" valueTypeId="e13be4d0-d95f-4376-b975-044b46583868"/>
+    <listType typeId="11c062fa-03ce-4f67-8655-9033bb0dad25" valueTypeId="40519343-98f6-4ce5-815e-dc316a45c17f"/>
+    <managerType typeId="fdee74bc-c57e-4f20-9b66-d8b6750847c6" valueTypeId="3ac6d10b-cfcd-4970-89ea-1c5071b3f5ad"/>
+  </producedTypes>
+  <name>СтатусПланаЗакупок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус плана закупок</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b569404e-faf6-4fea-8bb7-e6b3cc5a3fd2">
+    <name>Утвержден</name>
+    <synonym>
+      <key>ru</key>
+      <value>Утвержден</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e4f5786b-5541-4020-9f47-a5a8a404dd48">
+    <name>Отклонен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклонен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

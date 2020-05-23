@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca4f1842-81a4-4349-85d2-954a00c5e893">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3172a47e-6a5d-44cc-a120-3e55b4683c84">
   <producedTypes>
-    <objectType typeId="a78e421b-a826-431d-af56-a48cb90a939c" valueTypeId="d47916f9-1eb3-4c91-afb5-13b99ce9644c"/>
-    <refType typeId="c432663b-e12d-48d4-b94f-1e58ef2c8bba" valueTypeId="f0a2144b-1f48-4f1f-8b74-7a4ada10dee6"/>
-    <selectionType typeId="520aa056-c2a3-47c6-8bde-ce139dee3c1f" valueTypeId="042d4697-4696-440b-9830-5a2907f5292b"/>
-    <listType typeId="1dd05abb-0779-477d-88a7-abdc47c75431" valueTypeId="856b0b12-60dd-4fde-9e00-127523258991"/>
-    <managerType typeId="5354ad8c-0981-4c42-a1f2-094d557481b0" valueTypeId="6ce195ac-e11a-43ca-8532-f1233c6ab1fb"/>
+    <objectType typeId="fad683f4-6eb7-4fe8-84f5-25bbdda96eb2" valueTypeId="f59aebdc-b642-4710-845f-f8427916a3c5"/>
+    <refType typeId="95173bdc-c63e-40a1-aabd-454c15047d7b" valueTypeId="6c92f6f9-f7b3-43e3-8116-c90a8ea74991"/>
+    <selectionType typeId="e49f73ee-1282-4be0-8102-ec64af9e7125" valueTypeId="4b2ea8bd-e384-4e1a-92f3-f45f4a47abb7"/>
+    <listType typeId="0e3e3139-bd4b-49e3-b231-b59352d5aa55" valueTypeId="9aba8959-cbb6-4466-a860-80a9b2c83f7f"/>
+    <managerType typeId="fd5ecb35-947e-4350-a997-16380376cd78" valueTypeId="3a1bbff1-e5ca-4ba7-9b34-4f64a31a45c6"/>
   </producedTypes>
   <name>ПланЗакупок</name>
   <synonym>
@@ -15,6 +15,7 @@
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.ПланЗакупок.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Document.РеализацияТоваровАвтолавкой</basedOn>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
@@ -25,4 +26,67 @@
   <autonumbering>true</autonumbering>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="bff79b1a-dc95-46f4-845f-e3cf582a89ec">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусПланаЗакупок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="a6515c33-f24b-466f-9f73-ff4a8d0f3b17">
+    <producedTypes>
+      <objectType typeId="98ad0132-6a34-4b97-af67-c26459202a49" valueTypeId="b9121bf7-ea31-4ad7-8777-81f723646e05"/>
+      <rowType typeId="9a834a3e-9298-448e-bf30-019d95196b2c" valueTypeId="b930067c-1cfe-4e0f-aeba-45e8da14d964"/>
+    </producedTypes>
+    <name>СписокТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список товаров</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <attributes uuid="7e8c71d0-65b5-43d0-ae11-8ba5788a4b2c">
+      <name>Товар</name>
+      <synonym>
+        <key>ru</key>
+        <value>Товар</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Товары</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ea9d78f9-3a4f-4803-a782-4ff86585448c">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
 </mdclass:Document>
