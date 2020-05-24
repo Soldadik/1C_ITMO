@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6f41402-aa24-41d3-80e4-62406b7ead31">
+  <producedTypes>
+    <objectType typeId="f1756915-e189-40bd-877e-f0d160524f7f" valueTypeId="918a70d5-77bf-43fd-99db-86b1f74a127f"/>
+    <managerType typeId="0cb84e04-3f7d-4392-8ae3-1e167e005200" valueTypeId="562f705c-28c1-4b7e-8d10-8200b4114b9a"/>
+  </producedTypes>
+  <name>СредниеПродажиПоМаршруту</name>
+  <synonym>
+    <key>ru</key>
+    <value>Средние продажи по маршруту</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.СредниеПродажиПоМаршруту.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="4bc5f571-fb42-4244-a2b9-9b5444c6f19e">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

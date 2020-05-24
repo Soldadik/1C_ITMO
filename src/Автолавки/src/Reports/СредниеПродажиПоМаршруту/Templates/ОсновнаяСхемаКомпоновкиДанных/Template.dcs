@@ -7,6 +7,13 @@
 	<dataSet xsi:type="DataSetQuery">
 		<name>НаборДанных1</name>
 		<field xsi:type="DataSetFieldField">
+			<dataPath>ПутевойЛист</dataPath>
+			<field>ПутевойЛист</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
 			<dataPath>Товар</dataPath>
 			<field>Товар</field>
 			<role>
@@ -17,39 +24,18 @@
 			<dataPath>Количество</dataPath>
 			<field>КоличествоОборот</field>
 		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ПутевойЛист</dataPath>
-			<field>ПутевойЛист</field>
-			<role>
-				<dcscom:dimension>true</dcscom:dimension>
-			</role>
-		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	ПродажиОбороты.Товар КАК Товар,
-	ПродажиОбороты.ПутевойЛист КАК ПутевойЛист,
-	ПродажиОбороты.КоличествоОборот КАК КоличествоОборот
+	ПродажиОбороты.КоличествоОборот КАК КоличествоОборот,
+	ПродажиОбороты.ПутевойЛист КАК ПутевойЛист
 ИЗ
 	РегистрНакопления.Продажи.Обороты КАК ПродажиОбороты</query>
 	</dataSet>
-	<calculatedField>
-		<dataPath>[Прибыль от продажи]</dataPath>
-		<expression>Товар.Цена * Количество</expression>
-		<title xsi:type="v8:LocalStringType">
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content>Прибыль от продажи</v8:content>
-			</v8:item>
-		</title>
-	</calculatedField>
 	<totalField>
 		<dataPath>Количество</dataPath>
-		<expression>Сумма(Количество)</expression>
+		<expression>Среднее(Количество)</expression>
 		<group>Товар</group>
-	</totalField>
-	<totalField>
-		<dataPath>[Прибыль от продажи]</dataPath>
-		<expression>Сумма([Прибыль от продажи])</expression>
 	</totalField>
 	<parameter>
 		<name>НачалоПериода</name>
@@ -66,8 +52,7 @@
 			</v8:DateQualifiers>
 		</valueType>
 		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
-		<useRestriction>true</useRestriction>
-		<expression>&amp;ПериодОтчета.ДатаНачала</expression>
+		<useRestriction>false</useRestriction>
 	</parameter>
 	<parameter>
 		<name>КонецПериода</name>
@@ -84,25 +69,6 @@
 			</v8:DateQualifiers>
 		</valueType>
 		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
-		<useRestriction>true</useRestriction>
-		<expression>&amp;ПериодОтчета.ДатаОкончания</expression>
-	</parameter>
-	<parameter>
-		<name>ПериодОтчета</name>
-		<title xsi:type="v8:LocalStringType">
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content>Период отчета</v8:content>
-			</v8:item>
-		</title>
-		<valueType>
-			<v8:Type>v8:StandardPeriod</v8:Type>
-		</valueType>
-		<value xsi:type="v8:StandardPeriod">
-			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
-			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
-			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
-		</value>
 		<useRestriction>false</useRestriction>
 	</parameter>
 	<settingsVariant>
@@ -113,32 +79,20 @@
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>Количество</dcsset:field>
 				</dcsset:item>
-				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>[Прибыль от продажи]</dcsset:field>
-				</dcsset:item>
 			</dcsset:selection>
 			<dcsset:filter>
 				<dcsset:item xsi:type="dcsset:FilterItemComparison">
-					<dcsset:left xsi:type="dcscor:Field">ПутевойЛист</dcsset:left>
+					<dcsset:left xsi:type="dcscor:Field">ПутевойЛист.ГрафикПоездки.Маршрут</dcsset:left>
 					<dcsset:comparisonType>Equal</dcsset:comparisonType>
-					<dcsset:right xsi:type="dcscor:DesignTimeValue">Документ.ПутевойЛист.ПустаяСсылка</dcsset:right>
-					<dcsset:userSettingID>71abd2dd-e55d-4cc0-ad4f-8839bcb5f7a0</dcsset:userSettingID>
+					<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.Маршруты.ПустаяСсылка</dcsset:right>
+					<dcsset:userSettingID>041b571d-3369-4693-a720-785e69d0d81b</dcsset:userSettingID>
 				</dcsset:item>
 			</dcsset:filter>
-			<dcsset:dataParameters>
-				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:parameter>ПериодОтчета</dcscor:parameter>
-					<dcscor:value xsi:type="v8:StandardPeriod">
-						<v8:variant xsi:type="v8:StandardPeriodVariant">ThisWeek</v8:variant>
-					</dcscor:value>
-					<dcsset:userSettingID>9e4bfcfe-a39d-4fe5-9a3c-70a38beae51b</dcsset:userSettingID>
-				</dcscor:item>
-			</dcsset:dataParameters>
 			<dcsset:item xsi:type="dcsset:StructureItemTable">
 				<dcsset:column>
 					<dcsset:groupItems>
 						<dcsset:item xsi:type="dcsset:GroupItemField">
-							<dcsset:field>ПутевойЛист</dcsset:field>
+							<dcsset:field>ПутевойЛист.ГрафикПоездки.Маршрут</dcsset:field>
 							<dcsset:groupType>Items</dcsset:groupType>
 							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
 							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
