@@ -68,12 +68,13 @@
   <enums>Enum.СтатусПланаЗакупок</enums>
   <enums>Enum.ЕдиницыТоваров</enums>
   <reports>Report.ОстаткиТоваровВАвтолавке</reports>
-  <reports>Report.ОтчетЗатратыГСМ</reports>
   <reports>Report.ОстаткиТоваров</reports>
   <reports>Report.АнализПродаж</reports>
   <reports>Report.Закупки</reports>
+  <reports>Report.ЗатратыГСМ</reports>
   <accumulationRegisters>AccumulationRegister.ТоварыВАвтолавке</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ТоварыНаСкладе</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Закупки</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ЗатратыГСМ</accumulationRegisters>
 </mdclass:Configuration>

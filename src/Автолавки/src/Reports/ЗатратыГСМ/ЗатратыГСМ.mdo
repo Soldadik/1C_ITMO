@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2159d6d3-260c-4c89-a3f5-dc0bd9b245e2">
+  <producedTypes>
+    <objectType typeId="61ce1940-3883-4248-8a75-a2c9de7d71be" valueTypeId="dbb6d518-f7c9-4639-885f-b016e1f1f9c4"/>
+    <managerType typeId="44cbbfe3-eb5c-4222-8509-b675898c7eda" valueTypeId="04f48793-b9be-436f-9938-6a239454ec0a"/>
+  </producedTypes>
+  <name>ЗатратыГСМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Затраты ГСМ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ЗатратыГСМ.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="4fa1ccfd-8ada-442b-b9fd-201d4ec4b5d7">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

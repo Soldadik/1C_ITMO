@@ -17,4 +17,6 @@
   <content>Report.ОстаткиТоваровВАвтолавке</content>
   <content>Document.ЗагрузкаТоваровВАвтолавку</content>
   <content>Report.АнализПродаж</content>
+  <content>AccumulationRegister.ЗатратыГСМ</content>
+  <content>Report.ЗатратыГСМ</content>
 </mdclass:Subsystem>

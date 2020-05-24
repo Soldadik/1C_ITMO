@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c2a6a65-4c23-4ffb-b360-1ee664bbcfc2">
+  <producedTypes>
+    <selectionType typeId="92490a22-d0b1-49b5-9bc6-4cad7a5e3454" valueTypeId="7c561107-57a6-4a7f-94b4-26c0897d2224"/>
+    <listType typeId="5d2ec256-1535-410c-a507-59a7dbd39320" valueTypeId="d6564336-a788-40c8-b7e3-d57258ba2175"/>
+    <managerType typeId="a9c0fb15-4754-4eae-9a7c-4e655e8812f9" valueTypeId="8ac121c6-b8dd-4b5b-be77-33a5bdf4d4a0"/>
+    <recordSetType typeId="d7a04989-8e45-4bbd-a77a-ef3a2566177b" valueTypeId="ccbd0560-90ec-4d53-9d5b-0a1cac7230ca"/>
+    <recordKeyType typeId="9670bd37-d2a4-4d5d-a054-8a30d0eb5fe4" valueTypeId="665b92cd-7add-41dd-8f19-8e3065b99765"/>
+    <recordType typeId="cd602622-fba6-42f6-a485-116a22bdc134" valueTypeId="571e8244-1c5d-4c7d-b993-dea67a64e222"/>
+  </producedTypes>
+  <name>ЗатратыГСМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Затраты ГСМ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="912961bd-f9f5-4bfc-96d7-3f41d0a89748">
+    <name>НормативГСМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Норматив ГСМ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="0fb5e102-9cc1-4562-8808-c0206710b0c6">
+    <name>ЗатратыГСМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Затраты ГСМ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="4d3accfa-0391-4a0d-ad0f-ee37d02bd14d">
+    <name>ПутевойЛист</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путевой лист</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПутевойЛист</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
