@@ -4,7 +4,7 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>Subsystem.УправлениеФинансами</name>
+		<name>Subsystem.УправлениеЗапасами</name>
 		<right>
 			<name>View</name>
 			<value>true</value>

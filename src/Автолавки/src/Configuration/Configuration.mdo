@@ -31,7 +31,7 @@
   </languages>
   <subsystems>Subsystem.НСИ</subsystems>
   <subsystems>Subsystem.УправлениеПоездками</subsystems>
-  <subsystems>Subsystem.УправлениеФинансами</subsystems>
+  <subsystems>Subsystem.УправлениеЗапасами</subsystems>
   <roles>Role.ПолныеПрава</roles>
   <roles>Role.Пользователь</roles>
   <roles>Role.ДобавлениеИзменениеВодителей</roles>

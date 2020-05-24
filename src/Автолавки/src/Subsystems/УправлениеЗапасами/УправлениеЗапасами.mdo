@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da46cc48-a1fc-4c52-8672-d477a68c3a15">
-  <name>УправлениеФинансами</name>
+  <name>УправлениеЗапасами</name>
   <synonym>
     <key>ru</key>
-    <value>Управление финансами</value>
+    <value>Управление запасами</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
