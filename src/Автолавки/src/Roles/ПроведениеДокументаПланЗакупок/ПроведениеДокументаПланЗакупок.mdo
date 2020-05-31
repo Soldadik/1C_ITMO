@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96d8acdf-31f0-403f-934a-84a51ed44fb6">
+  <name>ПроведениеДокументаПланЗакупок</name>
+  <synonym>
+    <key>ru</key>
+    <value>ПроведениеДокументаПланЗакупок</value>
+  </synonym>
+</mdclass:Role>

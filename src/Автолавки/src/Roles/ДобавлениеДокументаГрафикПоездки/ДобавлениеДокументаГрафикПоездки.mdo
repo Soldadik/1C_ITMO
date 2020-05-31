@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b54852c1-9575-4ba5-a819-05584eb4bf81">
+  <name>ДобавлениеДокументаГрафикПоездки</name>
+  <synonym>
+    <key>ru</key>
+    <value>ДобавлениеДокументаГрафикПоездки</value>
+  </synonym>
+</mdclass:Role>

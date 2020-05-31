@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a4d1c20-982d-4ec8-aefb-f0faee240703">
+  <name>ДобавлениеИзменениеНаселенныхПунктов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение населенных пунктов</value>
+  </synonym>
+</mdclass:Role>

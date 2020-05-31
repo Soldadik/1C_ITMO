@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d9e32e4-82b1-49cf-abfa-c77378a70be8">
+  <name>ПроведениеДокументаПутевойЛист</name>
+  <synonym>
+    <key>ru</key>
+    <value>ПроведениеДокументаПутевойЛист</value>
+  </synonym>
+</mdclass:Role>
